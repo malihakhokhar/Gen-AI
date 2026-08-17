@@ -11,7 +11,7 @@ load_dotenv()
 # -------------------------
 # Initialize Groq Client
 # -------------------------
-groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+groq_client = Groq(api_key=os.getenv("GROQ_KEY"))
 
 
 # -------------------------
